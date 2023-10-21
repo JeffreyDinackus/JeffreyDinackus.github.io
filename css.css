@@ -1,0 +1,47 @@
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+}
+
+/* body {
+  background-color: coral;
+} */
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.topname {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+
+.blink {
+  animation: blink-animation 1s steps(1, start) infinite;
+  -webkit-animation: blink-animation 1s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
