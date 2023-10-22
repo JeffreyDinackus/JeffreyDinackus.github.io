@@ -45,3 +45,53 @@ h3 {
     visibility: hidden;
   }
 }
+
+/*
+Coloring
+
+*/
+
+.hero {
+  background-color: #2274A5;
+}
+
+body {
+  background-color: #121619;
+}
+
+.navbar {
+  background-color: #816C61;
+}
+
+p {
+  color: #FFFFF3
+}
+
+.footer {
+  background-color: #816C61;
+}
+
+.card {
+  background-color: #E9F1F7;
+}
+
+h2 {
+  color: #E9F1F7;
+}
+
+.title {
+  color: black;
+}
+
+a {
+  color: #ED254E;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: #121619;
+}
+
+.content p {
+  color: #121619
+}
