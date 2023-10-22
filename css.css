@@ -95,3 +95,18 @@ a {
 .content p {
   color: #121619
 }
+
+
+/*show 1 set of projects on mobile, 1 on desktop MAKING RESPONSIVE.*/
+
+@media only screen and (min-width: 680px) {
+  .hide-pc {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
+}

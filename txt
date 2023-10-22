@@ -1,0 +1,57 @@
+<p class="title is-4">SafeWalk, a project for PatriotHacks 2023</p>
+<p class="subtitle is-6">Full stack web project scraped our colleges crime database with python,
+  which
+  we did statistics with. Hosted with Flask and AWS EC2. Google Maps API, ChatGPT API integration
+  for
+  interactive dashboard. On Github at <a
+    href="https://github.com/JeffreyDinackus/SafeWalk">https://github.com/JeffreyDinackus/SafeWalk</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+<div class="columns is-centered mt-3">
+  <div class="column is-3">
+
+    <div class="card mt-3">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="./freedom.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img src="./icon.android-chrome-192x192.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">Freedom.Jeffreydinackus.com</p>
+            <p class="subtitle is-6">The original JeffreyDinackus.com, developed in 1 week, features personal
+              finance
+              calculators to educate the public about personal finance and compound interest. Now located at
+              <a href="http://freedom.jeffreydinackus.com/">https://Freedom.JeffreyDinackus.com.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="content">
+          <p>#Javascript
+            #SpectreCSS
+            #HTML
+            #AWS_Amplify</p>
+          <br>
+          <p>June 2023</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
