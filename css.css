@@ -127,6 +127,17 @@ a {
 } */
 
 .ms-caption {
-  transform: translate(15%);
+  transform: translate(40%);
+
+}
+
+.ms-img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.badge-cont {
+  text-align: center;
 
 }
