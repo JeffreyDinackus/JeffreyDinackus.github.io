@@ -119,3 +119,14 @@ a {
 .rails {
   height: 75px
 }
+
+/* MS certs */
+
+/* .ms-item {
+
+} */
+
+.ms-caption {
+  transform: translate(15%);
+
+}
