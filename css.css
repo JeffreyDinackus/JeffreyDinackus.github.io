@@ -18,6 +18,41 @@ h2 {
   font-weight: 400;
 }
 
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.notecard-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.noteapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+}
+
+.Azure-Network-Badge {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
