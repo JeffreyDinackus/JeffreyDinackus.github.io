@@ -4,6 +4,7 @@
 
 }
 
+@media (max-width: 601px) {
 html,
 body {
   overflow-x: hidden;
@@ -11,6 +12,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+}
 }
 
 /* body {
