@@ -46,11 +46,23 @@ h2 {
   transition: 0.3s;
 }
 
-.noteapp {
+
+@media (min-width: 601px) {
+
+.noteapp-large {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 35%;
+}
+}
+@media (max-width: 600px) {
+  .noteapp-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+  }
 }
 
 .Azure-Network-Badge {
