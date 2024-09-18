@@ -67,6 +67,7 @@
         <p class="mt-3">Frequent Hackathon Attendee 💻</p>
 
       </div>
+     
       <div class="column">
         <h2 class="is-size-4">Things I am interested in:</h2>
         <p class="mt-3">Front End Web Development, Full Stack Web Development, The Cloud, App Development ⛵️</p>
@@ -85,10 +86,34 @@
 
 
     </div>
-
+    
     <hr>
     <h2 class='is-size-6 my-5'>Looking for the free documents? See <a
         href="https://mirror.jeffreydinackus.com">https://mirror.jeffreydinackus.com</a></h2>
+    <hr>
+    <h2 class="is-size-2" id="counter">Page counter: This page has been viewed times</h3>
+      <script>const apiGatewayUrl = 'https://z21fmz5fjh.execute-api.us-east-1.amazonaws.com/default';
+
+
+
+        async function incrementCounter() {
+          try {
+            const response = await fetch(apiGatewayUrl + '/incrementViewCount', {
+              method: 'POST'
+            });
+            const data = await response.json();
+            console.log('Success:', data);
+    
+            document.getElementById('counter').innerHTML = `Page counter: This page has been viewed ${data} times`;
+          } catch (error) {
+            console.error('Error:', error);
+          }
+        };
+           // Call the updateCounterValue function when the page is loaded
+    window.onload = async () => {
+      await incrementCounter();
+    };
+    </script>
     <hr>
     <h2 class="is-size-2 mt-3">Things I Code with:</h2>
     <h2 class="is-size-3 mt-3">Frontend</h3>
