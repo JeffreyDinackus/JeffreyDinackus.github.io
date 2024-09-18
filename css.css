@@ -29,6 +29,18 @@ h2 {
   font-weight: 400;
 }
 
+iframe {
+  width: 90%;
+  height: 100vh;
+  border: none;
+
+  
+}
+
+.iframe-container {
+  text-align: center
+}
+
 .project {
   display: flex;
   flex-direction: column;
